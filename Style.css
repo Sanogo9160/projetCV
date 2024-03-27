@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+/* Style appliquée au container */
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0,0.1);
+    margin: 50px;
+
+
+}
+
+/* Style appliquée au left_side */
+.container .left_side{
+    position: relative;
+    padding: 40px;
+    background: #3d7894;
+}
+
+.ProfileText{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+
+}
+
+/* Style appliquée à l'image du profile */
+.ProfileText .ImageBx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.ProfileText .ImageBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.contactInfo{
+    padding-top: 40px;
+    
+}
+
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+
+.contactInfo ul{
+    position: relative;
+    color: #fff;
+    
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #000; /* Color of icon */
+    
+}
+
+.contactInfo.Adress{
+
+    border-bottom: 1px solid #fff; 
+    padding-bottom: 20px;
+
+    margin-top: 0px;
+
+}
+
+.contactInfo.ReseauSociau{
+
+    border-bottom: 1px solid #fff; 
+    padding-bottom: 20px;
+
+}
+
+/* Style appliquée au langues */
+
+.contactInfo.language .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+
+}
+
+.contactInfo.language {
+
+    border-bottom: 1px solid #fff; 
+    padding-bottom: 20px;
+
+}
+
+.contactInfo.language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+    
+}
+
+.contactInfo.language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #fff;
+    
+}
+
+.contactInfo.loisir ul li{
+
+list-style: square;
+margin-left: 15px;
+
+}
+
+
+
+/* Style appliquée au right_side */
+.container .right_side{
+    position: relative;
+    padding: 40px;
+    background: #fff;
+}
+
+/* Style appliquée à h2 */
+.About h2{
+    color: #000;
+    font-size: 1.4em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1px;
+
+}
+
+/* Style appliquée au span */
+.About h2 span{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #3d7894; 
+}
+
+.About .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+}
+
+.About .box .year_company{
+    min-width: 150px;
+
+}
+
+.About .box .year_company h5{
+    text-transform: uppercase;
+    
+}
+
+
+.About .box .year_company ul li{
+    list-style: square;
+    margin-left: 15px;
+
+    
+}
+
+
+
+
+
+
+
+
+
