@@ -6,332 +6,335 @@
     <title>Réalisation d'un CV Responsive en ligne avec HTML & CSS</title>
     <link rel="stylesheet" type="text/css" href="Style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" /-->
 </head>
 <body>
-    <div class="container">
-        <div class="left_side">
-            <div class="ProfileText">
-                <div class="ImageBx">
-                    <img src="Images/Profil.jpeg" alt="Mon profile">
+    <main>
+        <div class="container">
+            <div class="left_side">
+                <div class="ProfileText">
+                    <div class="ImageBx">
+                        <img src="Images/Profil.jpeg" alt="Mon profile">
+                    </div>
+
                 </div>
 
+                <!-- Insertion des information de contact --> 
+                <div class="contactInfo Adress">
+                    <h3 class="title">Contact</h3>
+                    <ul>
+                        <li>
+                            <p> <img src="Images/Phone_Icon.png" alt="Icon_call" width="30px" height="20px"><span>+223 77 29 05 1 </span> </p>
+                            
+                        </li>
+
+                        <li>
+                            <p><img src="Images/E-mail.png" alt="Icon_E-mail" width="30px" height="20px"><span> mahrokiatou9160@gmail.com </span></p>
+                        </li>
+
+                        <li>
+                            <P><img src="Images/Localisation.png" alt="Icon_Localisation" width="30px" height="20px"> <span> Bamako, Hamdallaye</span></P>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Insertion des information de Réseaux sociaux --> 
+                <div class="contactInfo ReseauSociau">
+                    <h3 class="title">Réseaux Sociaux</h3>
+                    <ul>
+                        <li>
+                            <p> <img src="Images/logo-linkedin.png" alt="Icon_call" width="30px" height="20px"><span>Mah SANOGO </span> </p>
+                        </li>
+
+                        <li>
+                            <p> <img src="Images/instagram.png" alt="Icon_call" width="30px" height="20px"><span class="text">Miss SANOGO</span></p>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Insertion des information de Langues --> 
+                <div class="contactInfo language">
+                    <h3 class="title">Langues</h3>
+                    <ul>
+                        <li>
+                            <span class="text">Français</span>
+                            <span class="percent">
+                                <div style="width: 80%;"></div>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span class="text">Anglais</span>
+                            <span class="percent">
+                                <div style="width: 50%;"></div>
+                            </span>
+                        </li>
+
+                        <li>
+                            <span class="text">Bambara</span>
+                            <span class="percent">
+                                <div style="width: 90%;"></div>
+                            </span>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Insertion des information sur loisirs --> 
+                <div class="contactInfo loisir">
+                    <h3 class="title">Loisirs</h3>
+                    <ul>
+                        <li>
+                            <span class="text">Lecture</span>
+                        </li>
+
+                        <li>
+                            <span class="text">Voyage</span>
+                        </li>
+
+                        <li>
+                            <span class="text">Cinéma</span>
+                        </li>
+
+                    </ul>
+                
+                </div>
+                
             </div>
+            <!-- Fin de la bamde laterale gauche--> 
 
-            <!-- Insertion des information de contact --> 
-            <div class="contactInfo Adress">
-                <h3 class="title">Contact</h3>
-                <ul>
-                    <li>
-                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                        <span class="text">+223 77 29 05 12</span>
-                    </li>
 
-                    <li>
-                        <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-                        <span class="text">mahrokiatou9160@gmail.com</span>
-                    </li>
+            <!-- Pour la bamde laterale droite --> 
+            <div class="right_side">
+                <div class="About">
+                    <h2>Mah Rokiatou Dite Koyan SANOGO <br><br><span>Full Stack Developer</span></h2><br>
+                    <p>Titulaire d'une licence en Génie Informatique et Télécommunation à l'ENI- ABT, <br> je suis courageuse, intègre, collaborative, une passionnée des technologies et surtout le Developpement web et mobile.</p>
+                </div>
 
-                    <li>
-                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                        <span class="text">Bamako, Hamdallaye</span>
-                    </li>
+                <!-- Insertion des informations d'Expériences Professionnelles--> 
+                <div class="About">
+                    <h2><span>Expériences Professionnelles</span></h2>
+                    <div class="box">
+                        <div class="year_company">
+                            <ul>
+                                <li>
+                                    <h5>2O24 - Présent</h5>
+                                    <h5>Orange-Mali</h5>
+                                </li>
+                            </ul>
 
-                </ul>
+                        </div>
+                        <div class="text">
+                            <h4>Developer web</h4>
+                            <p>Responsable de la conception d'application de gestion de la clientèle</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+                        <div class="year_company">
+
+                            <ul>
+                                <li>
+                                    <h5>2O22 - 2023</h5>
+                                    <h5>NG- SYSTEM</h5>
+
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="text">
+                            <h4>Developper Full Stack</h4>
+                            <p>Chargée de la conception et mise en place de l'application de gestion de logistique d'une entreprise</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+                        <div class="year_company">
+
+                            <ul>
+                                <li>
+                                    <h5>2O19 - 2022</h5>
+                                    <h5>WomenTechMali</h5>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="text">
+                            <h4>Community Manager</h4>
+                            <p>Chargée d'élaborer et échanger avec l'administration sur les stratégies de communications à mettre en place;<br> Collecter,traiter et diffuser les informations sur nos différents cannaux de communications.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Insertion des informations de Formations scolaires --> 
+                <div class="About">
+                    <h2><span>Formations Scolaires</span></h2>
+
+                    <div class="box">
+
+                        <div class="year_company">
+                            <ul>
+                                <li>
+                                    <h5>2021 - Présent</h5>
+                                    <h5>ENI- ABT</h5>
+                                </li>
+                            </ul>
+
+                            
+
+                        </div>
+
+                        <div class="text">
+                            <p>Master en cours en Management des Systèmes d'Informations</p>
+
+                        </div>
+
+                    </div>
+                    
+                    <div class="box">
+
+                        <div class="year_company">
+
+                            <ul>
+                                <li>
+                                    <h5>2018 - 2021</h5>
+                                    <h5>ENI- ABT</h5>
+
+                                </li>
+                            </ul>
+                            
+                        </div>
+
+                        <div class="text">
+                            <p>Licence en Génie Informatique et Télécommunication</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+
+                        <div class="year_company">
+
+                            <ul>
+                                <li>
+                                    <h5>2014 - 2017</h5>
+                                    <h5>LPK</h5>
+
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="text">
+                            <p>Obtention du Baccalauréat Malien en Sciences Exactes</p>
+
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+
+
+                <!-- Insertion des informations sur les compétences --> 
+                <div class="About">
+                    <h2><span>Compétences</span></h2>
+
+                    <div class="box">
+
+                        <div class="year_company">
+                            <ul>
+                                <li>
+                                    <h5>Langages</h5>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="text">
+                            <p>HTML & CSS , PHP , C </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+
+                        <div class="year_company">
+                            <ul>
+                                <li>
+                                    <h5>SGBD</h5>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="text">
+                            <p>MySQL , Oracle </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+
+                        <div class="year_company">
+                            <ul>
+                                <li>
+                                    <h5>Conception</h5>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="text">
+                            <p>Flyers , Affiches , Cartes de visites , Logos</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="box">
+
+                        <div class="year_company">
+                            <ul>
+                                <li>
+                                    <h5>Bureautiques</h5>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="text">
+                            <p>Word, Excel , Powerpoint</p>
+
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+                
 
             </div>
-
-            <!-- Insertion des information de Réseaux sociaux --> 
-            <div class="contactInfo ReseauSociau">
-                <h3 class="title">Réseaux Sociaux</h3>
-                <ul>
-                    <li>
-                        <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
-                        <span class="text">Mah SANOGO</span>
-                    </li>
-
-                    <li>
-                        <span class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></span>
-                        <span class="text">Miss SANOGO</span>
-                    </li>
-
-                </ul>
-
-            </div>
-
-            <!-- Insertion des information de Langues --> 
-            <div class="contactInfo language">
-                <h3 class="title">Langues</h3>
-                <ul>
-                    <li>
-                        <span class="text">Français</span>
-                        <span class="percent">
-                            <div style="width: 80%;"></div>
-                        </span>
-                    </li>
-
-                    <li>
-                        <span class="text">Anglais</span>
-                        <span class="percent">
-                            <div style="width: 50%;"></div>
-                        </span>
-                    </li>
-
-                    <li>
-                        <span class="text">Bambara</span>
-                        <span class="percent">
-                            <div style="width: 90%;"></div>
-                        </span>
-                    </li>
-
-                </ul>
-
-            </div>
-
-            <!-- Insertion des information sur loisirs --> 
-            <div class="contactInfo loisir">
-                <h3 class="title">Loisirs</h3>
-                <ul>
-                    <li>
-                        <span class="text">Lecture</span>
-                    </li>
-
-                    <li>
-                        <span class="text">Voyage</span>
-                    </li>
-
-                    <li>
-                        <span class="text">Cinéma</span>
-                    </li>
-
-                </ul>
-               
-            </div>
-            
         </div>
-
-        <!-- Pour la bamde laterale droite --> 
-        <div class="right_side">
-            <div class="About">
-                <h2>Mah Rokiatou Dite Koyan SANOGO <br><br><span>Full Stack Developer</span></h2><br>
-                <p>Titulaire d'une licence en Génie Informatique et Télécommunation à l'ENI- ABT, <br> je suis courageuse, intègre, collaborative, une passionnée des technologies et surtout le Developpement web et mobile.</p>
-            </div>
-
-            <!-- Insertion des informations d'Expériences Professionnelles--> 
-            <div class="About">
-                <h2><span>Expériences Professionnelles</span></h2>
-                <div class="box">
-                    <div class="year_company">
-                        <ul>
-                            <li>
-                                <h5>2O24 - Présent</h5>
-                                <h5>Orange-Mali</h5>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="text">
-                        <h4>Developer web</h4>
-                        <p>Responsable de la conception d'application de gestion de la clientèle</p>
-
-                    </div>
-
-                </div>
-
-                <div class="box">
-                    <div class="year_company">
-
-                        <ul>
-                            <li>
-                                <h5>2O22 - 2023</h5>
-                                <h5>NG- SYSTEM</h5>
-
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="text">
-                        <h4>Developper Full Stack</h4>
-                        <p>Chargée de la conception et mise en place de l'application de gestion de logistique d'une entreprise</p>
-
-                    </div>
-
-                </div>
-
-                <div class="box">
-                    <div class="year_company">
-
-                        <ul>
-                            <li>
-                                <h5>2O19 - 2022</h5>
-                                <h5>WomenTechMali</h5>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="text">
-                        <h4>Community Manager</h4>
-                        <p>Chargée d'élaborer et échanger avec l'administration sur les stratégies de communications à mettre en place;<br> Collecter,traiter et diffuser les informations sur nos différents cannaux de communications.</p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- Insertion des informations de Formations scolaires --> 
-            <div class="About">
-                <h2><span>Formations Scolaires</span></h2>
-
-                <div class="box">
-
-                    <div class="year_company">
-                        <ul>
-                            <li>
-                                <h5>2021 - Présent</h5>
-                                <h5>ENI- ABT</h5>
-                            </li>
-                        </ul>
-
-                        
-
-                    </div>
-
-                    <div class="text">
-                        <p>Master en cours en Management des Systèmes d'Informations</p>
-
-                    </div>
-
-                </div>
-                
-                <div class="box">
-
-                    <div class="year_company">
-
-                        <ul>
-                            <li>
-                                <h5>2018 - 2021</h5>
-                                <h5>ENI- ABT</h5>
-
-                            </li>
-                        </ul>
-                        
-                    </div>
-
-                    <div class="text">
-                        <p>Licence en Génie Informatique et Télécommunication</p>
-
-                    </div>
-
-                </div>
-
-                <div class="box">
-
-                    <div class="year_company">
-
-                        <ul>
-                            <li>
-                                <h5>2014 - 2017</h5>
-                                <h5>LPK</h5>
-
-                            </li>
-                        </ul>
-
-                    </div>
-
-                    <div class="text">
-                        <p>Obtention du Baccalauréat Malien en Sciences Exactes</p>
-
-                    </div>
-
-                </div>
-                
-
-            </div>
-
-
-            <!-- Insertion des informations sur les compétences --> 
-            <div class="About">
-                <h2><span>Compétences</span></h2>
-
-                <div class="box">
-
-                    <div class="year_company">
-                        <ul>
-                            <li>
-                                <h5>Langages</h5>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                    <div class="text">
-                        <p>HTML & CSS , PHP , C </p>
-
-                    </div>
-
-                </div>
-
-                <div class="box">
-
-                    <div class="year_company">
-                        <ul>
-                            <li>
-                                <h5>SGBD</h5>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                    <div class="text">
-                        <p>MySQL , Oracle </p>
-
-                    </div>
-
-                </div>
-
-                <div class="box">
-
-                    <div class="year_company">
-                        <ul>
-                            <li>
-                                <h5>Conception</h5>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                    <div class="text">
-                        <p>Flyers , Affiches , Cartes de visites , Logos</p>
-
-                    </div>
-
-                </div>
-
-                <div class="box">
-
-                    <div class="year_company">
-                        <ul>
-                            <li>
-                                <h5>Bureautiques</h5>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                    <div class="text">
-                        <p>Word, Excel , Powerpoint</p>
-
-                    </div>
-
-                </div>
-                
-
-            </div>
-            
-
-        </div>
-    </div>
+        <!--Fin du conteneur Principal-->
+        
+    </main>
 </body>
 </html>
