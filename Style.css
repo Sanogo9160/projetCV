@@ -7,13 +7,14 @@
     font-family: 'Poppins',sans-serif;
 }
 
-main{
+body{
     background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
+
 /* Style appliquée au container */
 .container{
     position: relative;
@@ -149,7 +150,6 @@ padding-bottom: 20px;
 
 
 
-
 /* Style appliquée au Loisirs */
 
 .contactInfo.loisir ul li{
@@ -211,10 +211,11 @@ margin-left: 15px;
 }
 
 
-@media (max-width : 1016px){
+@media (max-width : 1030px){
     .container{
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
+
     }
 }
 
