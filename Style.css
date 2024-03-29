@@ -7,8 +7,14 @@
     font-family: 'Poppins',sans-serif;
 }
 
+:root{
+    --couleur_principale:  #417694;
+    --couleur_secondaire:  #fff;
+    --couleur_tertiaire:  #000;
+}
+
 body{
-    background-color: #fff;
+    background-color: var(--couleur_secondaire);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +27,7 @@ body{
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    background: #fff;
+    background: var(--couleur_secondaire);
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0,0.1);
@@ -33,7 +39,7 @@ body{
 .container .left_side{
     position: relative;
     padding: 40px;
-    background: #417694;
+    background:var(--couleur_principale);
 }
 
 .ProfileText{
@@ -70,7 +76,7 @@ padding-bottom: 20px;
 }
 
 .title{
-    color: #fff;
+    color: var(--couleur_secondaire);
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -80,7 +86,7 @@ padding-bottom: 20px;
 
 .contactInfo ul{
     position: relative;
-    color: #fff;
+    color: var(--couleur_secondaire);
     
 }
 
@@ -94,7 +100,7 @@ padding-bottom: 20px;
 
 .contactInfo.Adress{
 
-    border-bottom: 1px solid #fff; 
+    border-bottom: 1px solid var(--couleur_secondaire); 
     padding-bottom: 30px;
 
 }
@@ -115,7 +121,7 @@ padding-bottom: 20px;
 
 .contactInfo.ReseauSociau{
 
-    border-bottom: 1px solid #fff; 
+    border-bottom: 1px solid var(--couleur_secondaire); 
     padding-bottom: 30px;
 
 }
@@ -138,7 +144,7 @@ padding-bottom: 20px;
 /* Style appliqué pour le trait de qui se trouve à la fin de la bordure de langues */
 .contactInfo.language {
 
-    border-bottom: 1px solid #fff; 
+    border-bottom: 1px solid var(--couleur_secondaire); 
     padding-bottom: 30px;
    
 
@@ -164,12 +170,12 @@ margin-left: 15px;
 .container .right_side{
     position: relative;
     padding: 40px;
-    background: #fff;
+    background: var(--couleur_secondaire);
 }
 
 /* Style appliquée à h2 */
 .About h2{
-    color: #000;
+    color: var(--couleur_tertiaire);
     font-size: 1.4em;
     margin-top: 20px;
     text-transform: uppercase;
@@ -182,7 +188,7 @@ margin-left: 15px;
 .About h2 span{
     font-size: 0.8em;
     font-weight: 600;
-    color: #417694; 
+    color: var(--couleur_principale); 
 }
 
 .About .box{
@@ -218,7 +224,6 @@ margin-left: 15px;
 
     }
 }
-
 
 @media (max-width : 600px){
     .About .box{
